@@ -3,17 +3,18 @@
     float:left;width: 600px;height: 230px;position: relative;left:  30%;
 }
 .a-propos{
-    color: black;font-size: 26px;position: absolute;left: 35px;top: 46px;
+    color: black;font-size: 26px;position: absolute;left: 35px;top: 20px;
 }
 .contact{
-    color: black;font-size: 26px;position: absolute;left: 35px;top: 76px;
+    color: black;font-size: 26px;position: absolute;left: 35px;top: 50px;
 }
+
 .inscription{
     color: white;
     font-size: 28px;
     position: absolute;
-    right: 30px;
-    top: 30px;
+    right: 20px;
+    top: 18px;
     background-color: #0178B9;
     padding: 14px 20px;
     border-radius: 16px;
@@ -22,8 +23,33 @@
     color: white;
     font-size: 26px;
     position: absolute;
-    top: 46px;
-    right: 210px;
+    top: 33px;
+    right: 200px;
+}
+/*boutton revenir aux menu principale + d'autre modification a cause de se boutton*/
+.revenir{
+    color: white;
+    font-size: 26px;
+    background-color: #104776;
+    padding: 6px 10px;
+    position: absolute;
+    top: 18px;
+    left: 50px;
+}
+.revenircontact{
+    color: black;font-size: 26px;position: absolute;left: 50px;top: 65px;
+}
+.revenirarrow{
+    width: 4%;
+    float: none;
+    position: relative;
+    top: 7px;
+    right: 10px;
+}
+.revenir-a-propos{
+    font-size: 70px;
+    position: absolute;
+    left: 41%;
 }
 
 /*Footer*/
