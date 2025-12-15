@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <style>
+        body{
+            background-color:rgb(253, 210, 191) ;
+        }
+        .inscription{
+            font-size: 40px;
+            text-align: center;
+
+
+        }
+        .tableau{
+            display: flex;
+            padding: 25px;
+            width: 60%;
+            margin: 10% auto;
+            flex-direction: column;
+            background-color: white;
+            height: 650px;
+        
+            
+            
+        }
+        .ligne{
+            width: 88%;
+            border-top: 6px solid orange;
+            margin: 10px auto ;
+            padding-bottom: 10px;  
+            text-align: center;
+        }
+        .colonne1{
+            display: flex;
+            gap: 10px;
+
+        }
+        .nom{
+            padding-left: 8.5% ;
+            font-size: 20px;
+        }
+        .prenom{
+            font-size: 20px;
+        }
+        .box{
+            border-color: rgb(251, 231, 222);
+            border-radius: 10px;
+            background-color: rgb(254, 247, 245);
+            width: 27%;
+        }
+        .email{
+            font-size: 20px;
+            padding-left: 8.5%;
+            
+        }
+        .box1{
+            border-color: rgb(251, 231, 222);
+            border-radius: 10px;
+            background-color: rgb(254, 247, 245);
+            width: 50%;
+            height: 35px;
+        }
+        .colonne2{
+            display: flex;
+            gap: 20px;
+            
+        }
+        .colonne3{
+            display: flex;
+            gap: 20px;  
+        }
+        .MotDePasse{
+            font-size: 20px;
+            padding-left: 8.5%;
+        }
+        .box2{
+            border-color: rgb(251, 231, 222);
+            border-radius: 10px;
+            background-color: rgb(254, 247, 245);
+            width: 40%;
+            height: 35px;
+        }
+        .tel{
+            font-size: 20px;
+            padding-left: 8.5%;
+        
+        }
+        .box3{
+            border-color: rgb(251, 231, 222);
+            border-radius: 10px;
+            background-color: rgb(254, 247, 245);
+            width: 35%;
+            height: 35px;
+        }
+        .code{
+            font-size: 20px;
+            padding-left: 8.5%;
+        }
+        .box4{
+            border-color: 
+            rgb(251, 231, 222);
+            border-radius: 10px;
+            background-color: rgb(254, 247, 245);
+            width: 35%;
+            height: 35px;
+        }¸
+
+        .terminer{
+            font-size: 35px;
+            background-color: rgb(243, 174, 144);
+            width: 300px;
+            height: 100px;
+            border-radius: 20px;
+        }
+
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <form class="tableau">
+        <p class="inscription"> <b>Inscription</b></p>
+        <p class="ligne"></p>
+        <div class="colonne1"> 
+            <label class="nom"> <b>Nom : </b></label> 
+            <input class="box"type="text">  
+            <label class="prenom"> <b>Prénom : </b></label> 
+            <input class="box" type="text"> <br> <br>           
+        </div> <br> <br>
+        <div class="colonne2"> 
+            <label class="email"> <b>Email : </b> </label> <br>
+            <input class="box1" type="text"> <br>
+        </div> <br> <br>
+        <div class="colonne3">
+            <label class="MotDePasse"><b>Mot de passe : </b></label> 
+            <input class="box2"form="text">
+        </div> <br> <br>
+        <div class="colonne4">
+            <label class="tel"><b>Numero de Telephone : </b></label>
+            <input class="box3"type="text">
+        
+
+        </div> <br> <br>
+        <div>
+            <label class="code"> <b>Code Postal : </b></label>
+            <input class="box4"type="text">
+
+        </div> <br><br>
+        <div class="bouton">
+                    <button class="terminer">Terminer l'inscription</button>
+        </div>
+             
+
+
+
+    </form>
+
+    
+</body>
+</html>

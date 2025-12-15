@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>connexion</title>
+    <style>
+        body{
+            background-color:rgb(253, 210, 191);
+        }
+        .tableau{
+        margin: 10% auto;    
+
+        padding: 20px;    
+        padding-left: 50px;        
+        width: 40%; 
+        height: 600px;             
+        background-color: white;
+        
+        
+       
+        
+
+        }
+        .curve{
+            width: 75%;
+            height: 50px;
+            border-color: rgb(251, 231, 222);
+            border-radius: 10px;
+            background-color: rgb(254, 247, 245);
+        } 
+        .Center{
+            text-align: center;  
+            font-size: 50px;
+                   
+            
+            
+        }
+        .information{
+            font-size: 30px;
+        }
+        .ligne{
+            width: 70%;
+            border-top: 4px solid orange;
+            margin: 10px auto ;
+            padding-bottom: 10px;  
+            text-align: center;
+        }
+        .BoutonConnecter{
+            font-size: 35px;
+            background-color: rgb(243, 174, 144);
+            width: 300px;
+            height: 100px;
+            border-radius: 20px;
+        }
+        .bouton{
+            padding-top: 30px;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+           
+    
+
+        
+    </style>
+</head>
+<body>
+    <section>
+        <form class="tableau">
+            <h1 class="Center">Connexion</h1>
+            <p class="ligne"></p>
+            <label class="information"for="Email">Email : </label> <br>  <br>
+            <input class="curve" type="text"> <br><br>
+            <label class="information"for="Mot de passe">Mot de passe : </label> <br>  <br>
+            <input class="curve" type="text"> <br><br>
+             <div class="bouton">
+                <button class="BoutonConnecter">Se connecter</button>
+            </div>
+    
+        </form>
+    </section>
+    
+    
+    
+</body>
+</html>
